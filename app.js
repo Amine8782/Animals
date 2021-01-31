@@ -1,5 +1,5 @@
 let x = document.getElementById('Connecter');
-let y = document.getElementById('Regidter');
+let y = document.getElementById('Register');
 let z = document.getElementById('btn');
 
 function Register() {
