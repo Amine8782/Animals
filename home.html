@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animals </title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+         *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+   .container{ 
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background.jpg);
+    background-position: center;
+    background-size:cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box; 
+} 
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h2{
+    color:#fff;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card{
+    width:150px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(picture1.jpg);
+}
+.card2{
+    background-image: url(picture2.jpg)
+}
+.card3{
+    background-image: url(picture3.jpg)
+}
+.card4{
+    background-image: url(picture4.jpg)
+}
+.card:hover{
+    transform: translateY(-10px)
+}
+
+    </style>
+   
+</head>
+<body> 
+    <div class="container">
+        <div class="navbar">
+           <img src="logo.jpg" class="logo">
+           <nav>
+               <ul>
+                   <li><a href="">HOME</a></li>
+                   <li><a href="">REGION</a></li>
+                   <li><a href="">ABOUT</a></li>
+               </ul>
+           </nav>
+        </div>
+        <div class="row">
+              <div class="col">
+                  <h2> CHATON </h2>
+                  <p>
+                    Jeune chat. Amas laineux de poussière qui s'accumule sous les meubles. Inflorescence propre à divers arbres et constituée par un épi, pendant ou dressé, de minuscules fleurs unisexuées. (Le chêne, le noyer, le noisetier ont des chatons mâles ; le saule, le peuplier et le charme ont aussi des chatons femelles.)
+                  </p>
+                   <a href="file:///C:/Users/pcp/Desktop/Animals/index.html"><button type="button"> Continuer </button></a>
+              </div>
+            <div class="col">
+               <div class="card card1">
+                   <h5> Angora Turc </h5>
+                   <p> L'Angora turc est une race de chats à poils mi-longs originaire de Turquie. Ce chat est caractérisé par sa robe à poils mi-longs très soyeuse et sans sous-poils. L'angora turc est à l'origine de l'ensemble des races à poils longs et mi-longs présents en Europe et l'Amérique.</p>
+               </div>
+               <div class="card card2">
+                <h5> Siamois </h5>
+                <p> À l'origine le vrai chat siamois présente une tête ronde, son corps est robuste et sa musculature athlétique. Certains éleveurs ont sensiblement fait évoluer la race, en la croisant avec des sujets orientaux. Ils ont ainsi allongé la tête, agrandi les oreilles et affiné le corps.</p>
+            </div>
+            <div class="card card3">
+                <h5> Persan </h5>
+                <p> Le persan est une race de chat à poil long. Ce chat de taille moyenne à grande est caractérisé par son poil long et abondant, sa silhouette toute en rondeur et son visage au museau très court. La race est d'abord modifiée par les Anglais, puis essentiellement par les États-Unis.</p>
+            </div>
+            <div class="card card4">
+                <h5> Sacré de Birmanie </h5>
+                <p> Le sacré de Birmanie est une race originaire de France. Ce chat de taille moyenne est caractérisé par sa robe à poil mi-long, qui présente le même patron colourpoint que le siamois mais ses pieds sont d'un blanc pur, comme s'il possédait des gants, un élément qui caractérise la race.</p>
+            </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    
+
+</body>
+</html>
